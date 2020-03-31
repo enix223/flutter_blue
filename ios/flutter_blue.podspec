@@ -24,6 +24,7 @@ Bluetooth Low Energy plugin for Flutter.
     ss.header_mappings_dir = '.'
     ss.requires_arc = false
     ss.dependency 'Protobuf'
+    ss.header_dir = 'protobuf'
   end
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
